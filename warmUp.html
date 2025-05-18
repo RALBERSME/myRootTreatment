@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="warmUp.css" />
+    <title>Warm Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>
+        Bevor wir in die Wurzelbehandlung einsteigen, starten wir mit einer
+        kleinen Aufwärmübung für den Kopf.
+      </h2>
+      <h3>
+        Wir lernen, auf einfachem und schnellen Weg Zahen, die auf 5 enden zu
+        potenziern.
+      </h3>
+      <div class="tafel">
+        <img id="tafel" src="Images/tafel.png" />
+        <div class="explanation">
+          <ol>
+            <li>
+              Wenn Du eine Zahl, die auf 5 endet mit 2 potenzieren willst, gehe
+              wie folgt vor:
+            </li>
+            <li>Für die Lösung bilde 2 Gruppen.</li>
+            <li>
+              Die rechte Gruppe ist die letzte rechte Zahl der Ausgangszahl,
+              also die 5. 5 hoch 5 ist 25, also schreibe bereits 25 als Ergebnis
+              für die rechte Gruppe.
+            </li>
+            <li>
+              Nimm die linke Gruppe und multipliziere sie mit der nächst höheren
+              ganzen Zahl. Das Ergebnis ist der linke Teil der Lösung.
+            </li>
+            <li>
+              Setze nun den linken Teil und den rechten Teil zusammen und schon
+              hast du die finale Lösung.
+            </li>
+          </ol>
+          <div class="buttons">
+            <button onClick="example1()">Klicke hier für Beispiel 1</button>
+            <button onClick="example2()">Klicke hier für Beispiel 2</button>
+            <button onClick="example3()">Klicke hier für Beispiel 3</button>
+            <button onClick="example4()">Klicke für einen Übungsfall</button
+            ><button onClick="example5()">
+              Klicke für die Lösung des Übungsfalles
+            </button>
+            <button
+              id="continue"
+              onClick="window.location.href='treatment.html'"
+            >
+              Ok, ich kann es <br />und gehe zur Wurzelbehandlung.
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="solution">
+      <ol>
+        <li>Was ist <span id="zahl1">xa</span> hoch 2?</li>
+        <li>
+          Für die Lösung bilde 2 Gruppen: <u><span class="zahl2">x</span></u
+          >||<u><span class="zahl3">a</span></u>
+        </li>
+        <li>
+          Die rechte Gruppe ist die letzte rechte Zahl der Ausgangszahl, also
+          die <span class="zahl3">a</span>. <span class="zahl3">A</span> hoch 2
+          ist <span class="zahl4">b</span>, also schreibe bereits
+          <span class="zahl4">b</span> als Ergebnis für die rechte Gruppe.<br />
+          Ergebnis: <span id="zahl5">__</span><span class="zahl4">b</span>
+        </li>
+        <li>
+          Nimm die linke Gruppe und multipliziere diese mit der nächst höheren
+          ganzen Zahl. <br />Die linke Gruppe ist <span class="zahl2">x</span>,
+          die nächst höhere Zahl ist <span class="zahl6">x+1</span>.<br />
+          <span class="zahl2">X</span> mal <span class="zahl6">x+1</span> ist
+          <span class="zahl7">y</span>. Das Ergebnis ist der linke Teil der
+          Lösung, also <span class="zahl7">y</span>.
+        </li>
+        <li>
+          Setze nun den linken Teil und den rechten Teil zusammen und schon hast
+          du die finale Lösung.<br />
+          Somit: <span class="zahl7">y</span><span class="zahl4">b</span>.
+        </li>
+      </ol>
+    </div>
+    <script src="warmUp.js"></script>
+  </body>
+</html>

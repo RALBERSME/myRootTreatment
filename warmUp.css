@@ -1,0 +1,50 @@
+* {
+    margin:0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    height: 100vh; 
+    background-color: rgb(207, 244, 232);
+    overflow: hidden; 
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container {
+    margin: 5%; 
+}
+.tafel {
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+}
+#tafel {
+    width: 100%; 
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    margin-top: 5px; 
+    padding: 2px; 
+    font-size: 1.3rem;
+    border-radius: 5px; 
+    background-color: green;
+    color: white; 
+}
+#continue {
+    color: yellow;
+}
+.explanation {
+    font-size: 1.3rem;
+}
+.solution {
+    position: absolute;
+    top: 30%; 
+    left: 15%; 
+    width: 30%; 
+    color: white; 
+    font-size: 1.5rem;
+}
+li {
+    margin-top: 5px; 
+}

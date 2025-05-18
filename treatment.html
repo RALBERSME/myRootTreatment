@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="treatment.css" />
+    <title>The Treatment!</title>
+  </head>
+  <body>
+    <section id="section1">
+      <div class="preparations">
+        <h1>Last preparations:</h1>
+        <p>
+          Bevor es nun losgeht, wollen wir uns mit zwei Übersichten befassen,
+          die für die Wurzelbehandlung essentiell sind:
+        </p>
+        <div class="exponents">
+          <table>
+            <tr>
+              <th>Zahl ||</th>
+              <th>Quadratzahl ||</th>
+              <th>letzte Zahl der Quadratzahl</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>4</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>9</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>16</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>25</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>36</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>49</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>64</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>81</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>100</td>
+              <td>00</td>
+            </tr>
+          </table>
+        </div>
+        <br />
+        <div class="erkenntnisse">
+          <table>
+            <tr>
+              <th>Endzahl der Quadratzahl ||</th>
+              <th>kommt nur vor bei folgenden Ausgangszahlen:</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>1 oder 9</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>2 oder 8</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>4 oder 6</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>3 oder 7</td>
+            </tr>
+            <tr>
+              <td>00</td>
+              <td>0</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <h2>
+        Jetzt geht`s los. Scroll dich einfach durch die aufgeregten Teilnehmer
+        nach unten zum großen Geheimnis!
+      </h2>
+      <button id="ready" onClick="changeVisibility()">
+        Klick hier, wenn Du bereit bist!
+      </button>
+    </section>
+    <section id="section2" class="hide">
+      <h2 id="cta">
+        Lass dich von den vielen schwatzenden Teilnehmern nicht beirren, scroll
+        einfach runter!
+      </h2>
+      <video
+        id="video"
+        tabindex="0"
+        autobuffer="autobuffer"
+        preload="auto"
+        muted
+      >
+        <source type="video/mp4" src="pinguin.mp4" />
+        <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
+      </video>
+    </section>
+
+    <script src="treatment.js"></script>
+  </body>
+</html>

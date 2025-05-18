@@ -3,20 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="certificate.css" />
     <title>Certificate</title>
   </head>
   <body>
     <div class="container">
-      <h1>Glückwunsch, hier ist Dein Zertifikat in Wurzelbehandlung!</h1>
-      <img
-        src="https://cdn.pixabay.com/photo/2012/04/13/11/07/school-31872_640.png"
-      /><br />
-      <a
-        >Wenn Du mehr lernen willst, schau Dir das Trachtenberg
-        Schnellrechensystem hier an LINK ZUFÜGEN</a
-      >
-      <a>oder das Vedische Rechensystem LINK ZUFÜGEN</a>
-      <p>Noch copy right + Dank ergänzen</p>
+      <div class="intro">
+        <h1>Glückwunsch, Du hast es geschafft!</h1>
+        <br />
+        <h2>
+          Du darfst Dich nun als zertifizierter Wurzelzieher betrachten.<br />Trage
+          nur noch Deinen Vornamen (auch Künstlername möglich und falls
+          gewünscht, auch der Nachname)<br />
+          in die Eingabefelder ein und klicke auf den Erstellbutton; schon wird
+          Dein Zertifikat angezeigt.
+        </h2>
+      </div>
+      <br />
+      <form id="inputForm" class="">
+        <label class="heading"><b>Vorname:</b></label>
+        <input
+          class="inputField"
+          id="first"
+          type="text"
+          placeholder="Vorname od. Künstlername"
+        />
+        <br />
+        <label class="heading"><b>Nachname:</b></label>
+        <input
+          class="inputField"
+          id="second"
+          type="text"
+          placeholder="Nachname - freiwillig"
+        />
+        <br /><br />
+        <button type="submit">
+          Hier bitte klicken, um das Zertifikat zu erstellen
+        </button>
+      </form>
     </div>
+    <div id="showCertificate" class="hide">
+      <div class="message">
+        <h2>Mit höchster Wertschätzung wurde für</h2>
+        <br />
+        <span id="setzeVorname"></span> <span id="setzeNachname"></span>
+        <br />
+        <br />
+        <h2>
+          diese Urkunde erstellt, die erworbene Grundkenntnisse im Bereich des
+          Wurzelziehens bescheinigt. Das Wissen wurde auf Basis der
+          Trachentenberg Schnellrechenmethode & Vedischer Schnellrechenkunst
+          vermittelt.
+        </h2>
+        <br />
+        <h2>Wir wünschen viel Freude <br />mit dem erworbenen neuen Wissen.</h2>
+        <br />
+        <h3>
+          Reinhild's myRootTreatment <br />- copyright &copy; 2025 all rights
+          reserved
+        </h3>
+      </div>
+    </div>
+    <script src="certificate.js"></script>
   </body>
 </html>

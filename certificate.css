@@ -1,0 +1,83 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(30deg, #eec628 12%, transparent 12.5%, transparent 87%, #eec628 87.5%, #eec628), linear-gradient(150deg, #eec628 12%, transparent 12.5%, transparent 87%, #eec628 87.5%, #eec628), linear-gradient(30deg, #eec628 12%, transparent 12.5%, transparent 87%, #eec628 87.5%, #eec628), linear-gradient(150deg, #eec628 12%, transparent 12.5%, transparent 87%, #eec628 87.5%, #eec628), linear-gradient(60deg, #eec62877 25%, transparent 25.5%, transparent 75%, #eec62877 75%, #eec62877), linear-gradient(60deg, #eec62877 25%, transparent 25.5%, transparent 75%, #eec62877 75%, #eec62877);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes animationBackgroundColor {
+    0% {
+        background-color: #e5e5f7;
+    }
+    0% {
+        background-color: rgb(182, 253, 169);
+    }
+}
+
+.container {
+    margin: 3%; 
+    height: 85vh; 
+    background-color: #e5e5f7; 
+    padding: 2%; 
+    color: black; 
+    opacity: 0.8;
+    border-radius: 5px; 
+}
+.input-container {
+    margin-top: 3px; 
+}
+.heading {
+    color: black; 
+    font-size: 2rem; 
+    display: flex;
+}
+.inputField {
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    color: rgb(13, 13, 130); 
+    font-size: 1rem; 
+}
+button {
+    border-radius: 5px; 
+    padding: 10px; 
+    background-color: rgb(13, 13, 130); 
+    color: white; 
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.hide {
+    display: none; 
+}
+#showCertificate {
+    position: absolute;
+    background-image: url(Images/certificateFinal.png);
+    background-repeat: no-repeat;
+    top: 5%; 
+    left: 25%; 
+    height: 90vh; 
+    width: 100%; 
+}
+
+.message {
+    position:absolute; 
+    top: 27.5%; 
+    left: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    width: 35vw; 
+}
+#setzeVorname, #setzeNachname {
+    color: goldenrod; 
+    font-size: 2rem; 
+    text-transform: capitalize;
+}
+#wann {
+    color: red; 
+}

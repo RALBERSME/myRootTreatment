@@ -20,7 +20,7 @@ setInterval(function(){
 window.addEventListener("scroll", () => {
     let scroll = this.scrollY;
     if (scroll > "10750") {
-      window.location.href = "secret.html"
+      window.location.href = "secretEngl.html"
     }
    
 });

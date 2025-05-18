@@ -4,7 +4,7 @@ inputForm.addEventListener("submit", (e) => {
         let firstName = document.getElementById("first");
         let lastName = document.getElementById("last");
         if(firstName.value == "") {
-            alert("Zumindest der Vorname muss eingegeben werden!");
+            alert("At least the first name must be entered!");
         } 
 
         if (firstName.value != "") {

@@ -24,38 +24,6 @@ body {
     border: 4px dotted rgb(254, 104, 50);
   }
  
-/* table {
-  position: relative;
-  border: 1px solid #03A9F3;
-}
-table::before,
-table::after {
-      content: "";
-      position: absolute;
-      width: 20px;
-      height: 20px;
-  }
-
- table::before {
-      top: -5px;
-      left: -5px;
-      border-top: 1px solid #03A9F3;;
-      border-left: 1px solid #03A9F3;;
-  }
-
-table::after {
-      right: -5px;
-      bottom: -5px;
-      border-bottom: 1px solid #03A9F3;
-      border-right: 1px solid #03A9F3;
-  }
-
-table:hover::before,
-table:hover::after {
-      width: calc(100% + 9px);
-      height: calc(100% + 9px);
-  } */
-
 table {
     background: 
         linear-gradient(90deg, rgb(255, 145, 105) 50%, transparent 0) repeat-x,

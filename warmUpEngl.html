@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="warmUp.css" />
+    <title>Warm Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>
+        Before we begin the root canal treatment, we'll start with a short
+        warm-up exercise for the head.
+      </h2>
+      <h3>
+        We'll learn how to raise numbers ending in 5 to powers quickly and
+        easily.
+      </h3>
+      <div class="tafel">
+        <img id="tafel" src="Images/tafel.png" />
+        <div class="explanation">
+          <ol>
+            <li>
+              If you want to raise a number ending in 5 to the power of 2,
+              proceed as follows:
+            </li>
+            <li>To solve, form 2 groups.</li>
+            <li>
+              The right-hand group is the last right-hand number of the original
+              number, i.e., 5. 5 to the power of 5 is 25, so write 25 as the
+              result for the right-hand group.
+            </li>
+            <li>
+              Take the left group and multiply it by the next higher whole
+              number. The result is the left part of the solution.
+            </li>
+            <li>
+              Now put the left and right parts together and you have the final
+              solution.
+            </li>
+          </ol>
+          <div class="buttons">
+            <button onClick="example1()">Click here for example 1</button>
+            <button onClick="example2()">Click here for example 2</button>
+            <button onClick="example3()">Click here for example 3</button>
+            <button onClick="example4()">Click here for an exercise</button
+            ><button onClick="example5()">
+              Click for the solution of the exercise case
+            </button>
+            <button
+              id="continue"
+              onClick="window.location.href='treatmentEngl.html'"
+            >
+              Ok, I can do it <br />and go for root treatment.
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="solution">
+      <ol>
+        <li>What is <span id="zahl1">xa</span> to the power of 2?</li>
+        <li>
+          For the solution, form two groups: <u><span class="zahl2">x</span></u
+          >||<u><span class="zahl3">a</span></u>
+        </li>
+        <li>
+          The right group is the last right number of the starting number, so
+          <span class="zahl3">a</span>. <span class="zahl3">A</span> to the
+          power of 2 is <span class="zahl4">b</span>, so write
+          <span class="zahl4">b</span> as the result of the right group.<br />
+          Result: <span id="zahl5">__</span><span class="zahl4">b</span>
+        </li>
+        <li>
+          Take the left group and multiply it by the next higher whole number.
+          <br />The left group is <span class="zahl2">x</span>, the next higher
+          whole number is <span class="zahl6">x+1</span>.<br />
+          <span class="zahl2">X</span> times <span class="zahl6">x+1</span> is
+          <span class="zahl7">y</span>. The result is the left part of the
+          solution, means <span class="zahl7">y</span>.
+        </li>
+        <li>
+          Now put the left and right parts together and you have the final
+          solution.<br />
+          Somit: <span class="zahl7">y</span><span class="zahl4">b</span>.
+        </li>
+      </ol>
+    </div>
+    <script src="warmUp.js"></script>
+  </body>
+</html>

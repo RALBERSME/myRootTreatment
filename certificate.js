@@ -21,12 +21,8 @@ inputForm.addEventListener("submit", (e) => {
         intro.classList.add("hide"); 
         let setzeVorname = document.getElementById("setzeVorname"); 
         setzeVorname.innerHTML = firstName.value; 
-      
-        if (lastName.value != "") {
-            let setzeNachname = document.getElementById("setzeNachname"); 
-            setzeNachname.innerHTML = lastName.value; 
-        }    
-              
+        let setzeNachname = document.getElementById("setzeNachname"); 
+        setzeNachname.innerHTML = lastName.value;
         } 
 
 });

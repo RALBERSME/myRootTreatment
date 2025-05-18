@@ -69,3 +69,7 @@ function example1() {
   function setzeZahl(zahlen, setzZahl){
     zahlen.forEach(zahl => zahl.innerHTML = setzZahl )
 }
+
+function tables() {
+ document.getElementById("imageId").src="Images/tables.png";
+}

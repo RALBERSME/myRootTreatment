@@ -18,7 +18,7 @@ let operator = document.getElementById("operator")
 function example1() {
     setzeZahl(zahl1, 2209);
     setzeZahl(zahl2, 22);
-    setzeZahl(zahl3, 9);
+    setzeZahl(zahl3, "09");
     setzeZahl(zahl4, 16);
     setzeZahl(zahl5, 25);
     setzeZahl(zahl6, 4);
@@ -30,7 +30,7 @@ function example1() {
     setzeZahl(zahl12, 5);
     setzeZahl(zahl13, 2025);
     setzeZahl(zahl14, 47); 
-    operator.innerHTML = " greater than ";   
+    operator.innerHTML = " is less than ";   
   }
   function example2() {
     setzeZahl(zahl1, 3844);
@@ -64,7 +64,7 @@ function example1() {
     setzeZahl(zahl12, 5);
     setzeZahl(zahl13, 4225);
     setzeZahl(zahl14, 62);   
-    operator.innerHTML = " greater than ";  
+    operator.innerHTML = " is greater than ";  
   }
   function setzeZahl(zahlen, setzZahl){
     zahlen.forEach(zahl => zahl.innerHTML = setzZahl )

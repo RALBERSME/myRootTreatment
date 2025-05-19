@@ -17,7 +17,7 @@ body {
     position: relative;
 
 }
-.intro {
+.intro, .intro1 {
  text-align: left;
  color: rgb(250, 95, 95);
  text-shadow: 1px 1px 0px black;
@@ -115,14 +115,11 @@ button {
 button:hover {
     cursor: pointer;
 }
-#button1 {
+#button1, #button2, #button3 {
     background: linear-gradient(to bottom, red, blue);    
     color: white;  
 }
-#button2 {
-    background: linear-gradient(to bottom, red, blue);    
-    color: white;  
-}
+
 .wrapper {
     height: 60vh; 
     width: 60vw; 
@@ -137,7 +134,7 @@ button:hover {
     height: 500px; 
     margin-left: 50px; 
 }
-#tooth {
+#tooth, #tooth1 {
     position: absolute;
     width: 70px; 
     height: 33px; 

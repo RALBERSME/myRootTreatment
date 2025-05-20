@@ -71,11 +71,11 @@ function example1() {
 }
 
 function tables() {
- document.getElementById("imageId").src="Images/tables.png";
+ document.getElementById("imageId").src="Images/table3.png";
 }
 function table1() {
-  document.getElementById("imageId").src="Images/table1.png";
+  document.getElementById("imageId").src="Images/table4.png";
  }
  function table2() {
-  document.getElementById("imageId").src="Images/table2.png";
+  document.getElementById("imageId").src="Images/table5.png";
  }
